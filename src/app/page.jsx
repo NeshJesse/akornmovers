@@ -29,16 +29,16 @@ export default function Landing() {
         {/* Open Graph Tags */}
         <meta property="og:title" content="Voice QR With us Voices are forever" />
         <meta property="og:description" content="Turn photos into talking memories. Immortalize the voices of your loved ones or yours." />
-        <meta property="og:image" content="https://neshjesse.github.io/voiceqr/public/merge.png" />
-        <meta property="og:url" content="https://neshjesse.github.io/voiceqr/" />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Voice qr" />
+        <meta property="og:image" content="https://neshjesse.github.io/akornmovers/public/images.png" />
+       <meta property="og:url" content="https://neshjesse.github.io/akornmovers" />
+       <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Akorn Movers" />
         
         {/* Twitter Card Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Voice QR - With us Voices are forever" />
         <meta name="twitter:description" content="Turn your photos into talking memories. Immortalize the voices of your loved ones or yours." />
-        <meta name="twitter:image" content="https://neshjesse.github.io/voiceqr/public/favi.jpeg" />
+        <meta name="twitter:image" content="https://neshjesse.github.io/akornmovers/public/images.png" />
         
         {/* Favicon */}
         <link rel="icon" type="image/png" href="https://neshjesse.github.io/voiceqr/public/favi.jpeg" />

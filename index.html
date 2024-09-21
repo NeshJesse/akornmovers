@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akorn Movers - Where You Move With Dignity</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Nehemiah Onyango Jesse Nehemiah">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://neshjesse.github.io/voiceqr/" />
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Voice QR - With us Voices are forever" />
+    <meta property="og:description" content="Turn photos into talking memories. Immortalize the voices of your loved ones or yours." />
+    <meta property="og:image" content="https://neshjesse.github.io/voiceqr/public/merge.png" />
+    <meta property="og:url" content="https://neshjesse.github.io/voiceqr/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Voice QR" />
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Voice QR - With us Voices are forever" />
+    <meta name="twitter:description" content="Turn your photos into talking memories. Immortalize the voices of your loved ones or yours." />
+    <meta name="twitter:image" content="https://neshjesse.github.io/voiceqr/public/favi.jpeg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://neshjesse.github.io/voiceqr/public/favi.jpeg" />
+    <link rel="apple-touch-icon" href="https://neshjesse.github.io/voiceqr/public/favi.jpeg" />
+
+    <!-- Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Voice QR",
+            "url": "https://neshjesse.github.io/voiceqr",
+            "description": "Preserve voices forever with QR codes linked to audio messages.",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://neshjesse.github.io/voiceqr/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        }
+    </script>
+</head>
+<body class="font-sans">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-600 p-4 text-white">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#home" class="text-xl font-bold">Akorn Movers</a>
+            <ul class="flex space-x-6">
+                <li><a href="#home" class="hover:text-gray-300">Home</a></li>
+                <li><a href="#services" class="hover:text-gray-300">Services</a></li>
+                <li><a href="#track-record" class="hover:text-gray-300">Track Record</a></li>
+                <li><a href="#testimonials" class="hover:text-gray-300">Testimonials</a></li>
+                <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-gray-200 px-6 py-16">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+            <div class="text-center md:text-left mb-8 md:mb-0 md:w-1/2">
+                <h2 class="text-4xl font-bold mb-4">Welcome to Akorn Movers where you move with Dignity</h2>
+                <p class="text-lg mb-8">Reliable and affordable moving services to make your relocation smooth and stress-free.</p>
+                <p class="text-3xl font-bold">Our Services are offered in</p>
+                <ul class="flex py-12 px-16 items-center justify-between">
+                    <li class="text-2xl">Kiambu</li>
+                    <li class="text-2xl">Nairobi</li>
+                </ul>
+            </div>
+
+            <!-- Quote Form -->
+            <div class="w-full md:w-1/2 bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-semibold mb-4">Get a Quote/Uliza Bei</h3>
+                <form action="/submit-quote" method="post">
+                    <div class="mb-4">
+                        <label for="moving-from" class="block text-gray-700">Moving From</label>
+                        <input type="text" id="moving-from" name="moving-from" class="w-full p-2 border border-gray-300 rounded-lg" placeholder="Enter your current location" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="moving-to" class="block text-gray-700">Moving To</label>
+                        <input type="text" id="moving-to" name="moving-to" class="w-full p-2 border border-gray-300 rounded-lg" placeholder="Enter your destination" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="date" class="block text-gray-700">Date</label>
+                        <input type="date" id="moving-date" name="moving-date" class="w-full p-2 border border-gray-300 rounded-lg" required>
+                    </div>
+                    <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 w-full">Get Quote</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-4">Residential Moving</h3>
+                    <p>We offer reliable and affordable residential moving services tailored to your needs.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-4">Commercial Moving</h3>
+                    <p>Efficient and professional moving services for businesses and commercial spaces.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-4">Packing Services</h3>
+                    <p>Expert packing services to ensure your belongings are securely packed and protected.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Track Record Section -->
+    <section id="track-record" class="py-16 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Our Track Record</h2>
+            <p class="text-lg mb-12">Here are some examples of our successful moving services. We take pride in our work and ensure every move is handled with care and professionalism.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg overflow-hidden">
+                    <img src="path/to/your-image1.jpg" alt="Successful Move 1" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Residential Move</h3>
+                        <p class="text-gray-600">Successfully relocated a family from a large home to a new neighborhood with all belongings safely transported.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="path/to/your-image2.jpg" alt="Successful Move 2" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Commercial Relocation</h3>
+                        <p class="text-gray-600">Completed a seamless office move for a growing business, ensuring minimal downtime and efficient setup at the new location.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="path/to/your-image3.jpg" alt="Successful Move 3" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Specialized Moving</h3>
+                        <p class="text-gray-600">Safely transported valuable and fragile items, such as art pieces and antiques, to their new homes without damage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Testimonials</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <p class="italic">"Akorn Movers made my relocation so easy! Their team was professional, friendly, and handled all of my items with care."</p>
+                    <h3 class="text-xl font-semibold mt-4">- John Doe</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <p class="italic">"I highly recommend Akorn Movers! They were efficient and affordable, and made my office move stress-free."</p>
+                    <h3 class="text-xl font-semibold mt-4">- Jane Smith</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <p class="italic">"The team at Akorn Movers went above and beyond to ensure my belongings were packed securely and arrived safely."</p>
+                    <h3 class="text-xl font-semibold mt-4">- Michael Lee</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Contact Us</h2>
+            <p class="text-lg mb-12">Have questions or want to schedule a move? Reach out to us using the form below or give us a call!</p>
+            <form action="/submit-contact-form" method="post" class="max-w-lg mx-auto">
+                <div class="mb-4">
+                    <input type="text" name="name" placeholder="Your Name" class="w-full p-2 border border-gray-300 rounded-lg" required>
+                </div>
+                <div class="mb-4">
+                    <input type="email" name="email" placeholder="Your Email" class="w-full p-2 border border-gray-300 rounded-lg" required>
+                </div>
+                <div class="mb-4">
+                    <textarea name="message" rows="4" placeholder="Your Message" class="w-full p-2 border border-gray-300 rounded-lg" required></textarea>
+                </div>
+                <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 w-full">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 p-4 text-white text-center">
+        <p>&copy; 2024 Akorn Movers. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

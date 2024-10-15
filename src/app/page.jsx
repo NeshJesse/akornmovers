@@ -1,7 +1,7 @@
 "use client";
 import Navbar from '@/components/navbar';
 import { useState } from 'react';
-import Quoteform from '@/components/Quoteform';
+import Quote from '@/components/quote';
 
 export const   Metadata ={
   title: 'Akorn Movers- Where you move with dignity',
@@ -76,7 +76,7 @@ export default function Landing() {
                 </ul>
             </div>
     
-            <Quoteform/>
+            <Quote/>
         </div>
       </section>
 

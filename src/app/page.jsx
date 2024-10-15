@@ -1,7 +1,7 @@
 "use client";
 import Navbar from '@/components/navbar';
 import { useState } from 'react';
-
+import Quoteform from '@/components/Quoteform';
 
 export const   Metadata ={
   title: 'Akorn Movers- Where you move with dignity',
@@ -24,7 +24,7 @@ export default function Landing() {
         <meta name="robots" content="index, follow" />
         
         {/* Canonical URL */}
-        <link rel="canonical" href="https://neshjesse.github.io/voiceqr/" />
+        <link rel="canonical" href="https://neshjesse.github.io/akornmovers/" />
         
         {/* Open Graph Tags */}
         <meta property="og:title" content="Voice QR With us Voices are forever" />
@@ -76,25 +76,7 @@ export default function Landing() {
                 </ul>
             </div>
     
-            {/* Qoute form */}
-            <div className="w-full md:w-1/2 bg-white p-6 rounded-lg shadow-lg">
-                <h3 className="text-2xl font-semibold mb-4">Get a Quote/Uliza Bei</h3>
-                <form action="/submit-quote" method="post">
-                    <div className="mb-4">
-                        <label for="moving-from" className="block text-gray-700">Moving From</label>
-                        <input type="text" id="moving-from" name="moving-from" className="w-full p-2 border border-gray-300 rounded-lg" placeholder="Enter your current location" required/>
-                    </div>
-                    <div className="mb-4">
-                        <label for="moving-to" className="block text-gray-700">Moving To</label>
-                        <input type="text" id="moving-to" name="moving-to" className="w-full p-2 border border-gray-300 rounded-lg" placeholder="Enter your destination" required/>
-                    </div>
-                    <div className="mb-4">
-                        <label for="date" className="block text-gray-700">Date</label>
-                        <input type="date" id="moving-date" name="moving-date" className="w-full p-2 border border-gray-300 rounded-lg" placeholder="Enter your destination" required/>
-                    </div>
-                    <button type="submit" className="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 w-full">Get Quote</button>
-                </form>
-            </div>
+            <Quoteform/>
         </div>
       </section>
 

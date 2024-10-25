@@ -27,23 +27,22 @@ export default function Landing() {
         <link rel="canonical" href="https://neshjesse.github.io/akornmovers/" />
         
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Voice QR With us Voices are forever" />
-        <meta property="og:description" content="Turn photos into talking memories. Immortalize the voices of your loved ones or yours." />
+        <meta property="og:title" content="Akorn Movers - Where You Move With Dignity" />
+        <meta property="og:description" content="Reliable and affordable moving services to make your relocation smooth and stress-free." />
         <meta property="og:image" content="https://neshjesse.github.io/akornmovers/public/images.png" />
        <meta property="og:url" content="https://neshjesse.github.io/akornmovers" />
        <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Akorn Movers" />
         
         {/* Twitter Card Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Voice QR - With us Voices are forever" />
-        <meta name="twitter:description" content="Turn your photos into talking memories. Immortalize the voices of your loved ones or yours." />
-        <meta name="twitter:image" content="https://neshjesse.github.io/akornmovers/public/images.png" />
-        
-        {/* Favicon */}
-        <link rel="icon" type="image/png" href="https://neshjesse.github.io/voiceqr/public/favi.jpeg" />
-        <link rel="apple-touch-icon" href="https://neshjesse.github.io/voiceqr/public/favi.jpeg" />
-        
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Akorn Movers - Where You Move With Dignity" />
+    <meta name="twitter:description" content="Reliable and affordable moving services to make your relocation smooth and stress-free." />
+    <meta name="twitter:image" content="https://neshjesse.github.io/akornmovers/public/images.png" />
+
+    <link rel="icon" type="image/png" href="https://neshjesse.github.io/akornmovers/public/images.png" />
+    <link rel="apple-touch-icon" href="https://neshjesse.github.io/akornmovers/public/images.png" />
+
         {/* Stylesheets */}
         <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
         
@@ -80,6 +79,47 @@ export default function Landing() {
         </div>
       </section>
 
+
+      <section id="track-record" className="py-16 bg-gray-100">
+        <div className="container mx-auto text-center">
+            <h2 className="text-3xl font-bold mb-8">Our Track Record</h2>
+            <p className="text-lg mb-12">Here are some examples of our successful moving services. We take pride in our work and ensure every move is handled with care and professionalism.</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              
+                <div className="bg-white p-6 rounded-lg shadow-lg overflow-hidden">
+                    <img src="/resident.jpeg" alt="Successful Move 1" className="w-full h-48 object-cover" />
+                    <div className="p-4">
+                        <h3 className="text-xl font-semibold mb-2">Residential Move</h3>
+                        <p className="text-gray-600">Successfully relocated a family from a large home to a new neighborhood with all belongings safely transported.</p>
+                    <a className="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 w-[60em]"
+                    href="/gallery">See more</a>
+                    </div>
+                </div>
+                
+                <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="/packs.jpeg" alt="Successful Move 2" className="w-full h-48 object-cover" />
+                    <div className="p-4">
+                    <h3 className="text-xl font-semibold mb-2">Packing Services</h3>
+                    <p className="text-gray-600">Expert packing services to ensure your belongings are securely packed and protected.</p>
+                    <a className="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 w-[60em]"
+                    
+                    href="/gallery">See more</a>
+                    </div>
+                </div>
+               
+                <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="path/to/your-image3.jpg" alt="Successful Move 3" className="w-full h-48 object-cover" />
+                    <div className="p-4">
+                        <h3 className="text-xl font-semibold mb-2">Specialized Moving</h3>
+                        <p className="text-gray-600">Handled the relocation of delicate items, including valuable artwork and antiques, with meticulous care.</p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+      </section>
+      
+
       <section id="services" className="py-16">
         <div className="container mx-auto">
             <h2 className="text-3xl font-bold text-center mb-8">Our Services</h2>
@@ -95,44 +135,11 @@ export default function Landing() {
                 <div className="bg-white p-6 rounded-lg shadow-lg">
                     <h3 className="text-xl font-semibold mb-4">Packing Services</h3>
                     <p>Expert packing services to ensure your belongings are securely packed and protected.</p>
+                
                 </div>
             </div>
         </div>
       
-      </section>
-
-      <section id="track-record" className="py-16 bg-gray-100">
-        <div className="container mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-8">Our Track Record</h2>
-            <p className="text-lg mb-12">Here are some examples of our successful moving services. We take pride in our work and ensure every move is handled with care and professionalism.</p>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              
-                <div className="bg-white p-6 rounded-lg shadow-lg overflow-hidden">
-                    <img src="path/to/your-image1.jpg" alt="Successful Move 1" className="w-full h-48 object-cover" />
-                    <div className="p-4">
-                        <h3 className="text-xl font-semibold mb-2">Residential Move</h3>
-                        <p className="text-gray-600">Successfully relocated a family from a large home to a new neighborhood with all belongings safely transported.</p>
-                    </div>
-                </div>
-                
-                <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <img src="path/to/your-image2.jpg" alt="Successful Move 2" className="w-full h-48 object-cover" />
-                    <div className="p-4">
-                        <h3 className="text-xl font-semibold mb-2">Commercial Relocation</h3>
-                        <p className="text-gray-600">Completed a seamless office move for a growing business, ensuring minimal downtime and efficient setup at the new location.</p>
-                    </div>
-                </div>
-               
-                <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <img src="path/to/your-image3.jpg" alt="Successful Move 3" className="w-full h-48 object-cover" />
-                    <div className="p-4">
-                        <h3 className="text-xl font-semibold mb-2">Specialized Moving</h3>
-                        <p className="text-gray-600">Handled the relocation of delicate items, including valuable artwork and antiques, with meticulous care.</p>
-                    </div>
-                </div>
-               
-            </div>
-        </div>
       </section>
 
       <section id="testimonials" className="py-16 bg-gray-100">
@@ -161,27 +168,7 @@ export default function Landing() {
         </div>
       </section>
 
-      <section id="contact" className="py-16">
-        <div className="container  text-center">
-            <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
-            <p className="text-lg mb-8">Ready to make your move? Get in touch with us today for a free quote.</p>
-            <form action="#" method="post" className="">
-                <div className="mb-4">
-                    <label for="name" className="block text-left text-gray-700">Name</label>
-                    <input type="text" id="name" name="name" className="w-full p-2 border border-gray-300 rounded" required />
-                </div>
-                <div className="mb-4">
-                    <label for="email" className="block text-left text-gray-700">Email</label>
-                    <input type="email" id="email" name="email" className="w-full p-2 border border-gray-300 rounded" required />
-                </div>
-                <div className="mb-4">
-                    <label for="message" className="block text-left text-gray-700">Message</label>
-                    <textarea id="message" name="message" rows="4" className="w-full p-2 border border-gray-300 rounded" required></textarea>
-                </div>
-                <button type="submit" className="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700">Send Message</button>
-            </form>
-        </div>
-    </section>
+     
 
     <footer className="bg-blue-600 text-white py-4">
         <div className="container mx-auto text-center">

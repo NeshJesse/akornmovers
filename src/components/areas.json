@@ -1,0 +1,131 @@
+{
+    "counties": [
+      {
+        "name": "Nairobi",
+        "constituencies": [
+          {
+            "name": "Dagoretti North",
+            "wards": ["Kilimani", "Kawangware", "Gatina", "Kileleshwa", "Kabiro"]
+          },
+          {
+            "name": "Dagoretti South",
+            "wards": ["Mutu-ini", "Ng'ando", "Riruta", "Uthiru/Ruthimitu", "Waithaka"]
+          },
+          {
+            "name": "Lang'ata",
+            "wards": ["Karen", "Nairobi West", "Mugumo-ini", "South C", "Nyayo Highrise", "Otiende"]
+          },
+          {
+            "name": "Kibra",
+            "wards": ["Laini Saba", "Lindi", "Makina", "Woodley/Kenyatta Golf Course", "Sarang'ombe"]
+          },
+          {
+            "name": "Kasarani",
+            "wards": ["Clay City", "Mwiki", "Kasarani", "Njiru", "Ruai", "Kamulu"]
+          },
+          {
+            "name": "Roysambu",
+            "wards": ["Roysambu", "Garden Estate", "Ridgeways", "Githurai", "Kahawa West", "Zimmermann", "Kahawa"]
+          },
+          {
+            "name": "Ruaraka",
+            "wards": ["Babadogo", "Utalii", "Mathare North", "Lucky Summer", "Korogocho"]
+          },
+          {
+            "name": "Embakasi Central",
+            "wards": ["Kayole North", "Kayole North Central", "Kayole South", "Komarock", "Matopeni/Spring Valley"]
+          },
+          {
+            "name": "Embakasi East",
+            "wards": ["Upper Savanna", "Lower Savanna", "Embakasi", "Utawala", "Mihang'o"]
+          },
+          {
+            "name": "Embakasi North",
+            "wards": ["Kariobangi North", "Dandora Area I", "Dandora Area II", "Dandora Area III", "Dandora Area IV"]
+          },
+          {
+            "name": "Embakasi South",
+            "wards": ["Imara Daima", "Kwa Njenga", "Kwa Reuben", "Pipeline", "Kware"]
+          },
+          {
+            "name": "Embakasi West",
+            "wards": ["Umoja I", "Umoja II", "Mowlem", "Kariobangi South"]
+          },
+          {
+            "name": "Kamukunji",
+            "wards": ["Pumwani", "Eastleigh North", "Eastleigh South", "Airbase", "California"]
+          },
+          {
+            "name": "Makadara",
+            "wards": ["Maringo/Hamza", "Viwandani", "Harambee", "Makongeni", "Mbotela", "Bahati"]
+          },
+          {
+            "name": "Mathare",
+            "wards": ["Hospital", "Mabatini", "Huruma", "Ngei", "Mlango Kubwa", "Kiamaiko"]
+          },
+          {
+            "name": "Starehe",
+            "wards": ["Nairobi Central", "Ngara", "Pangani", "Ziwani/Kariokor", "Landimawe", "Nairobi South"]
+          },
+          {
+            "name": "Westlands",
+            "wards": ["Kitisuru", "Parklands/Highridge", "Karura", "Kangemi", "Mountain View"]
+          }
+        ]
+      },
+      {
+        "name": "Kiambu",
+        "constituencies": [
+          {
+            "name": "Lari",
+            "wards": ["Kinale Ward", "Kijabe Ward", "Nyanduma Ward", "Kamburu Ward", "Lari/Kirenga Ward"]
+          },
+          {
+            "name": "Juja",
+            "wards": ["Murera Ward", "Theta Ward", "Juja Ward", "Witeithie Ward", "Kalimoni Ward"]
+          },
+          {
+            "name": "Ruiru",
+            "wards": ["Gitothua Ward", "Biashara Ward", "Gatongora Ward", "Kahawa/Sukari Ward", "Kahawa Wendani Ward", "Kiuu Ward", "Mwiki Ward", "Mwihoko Ward"]
+          },
+          {
+            "name": "Gatundu North",
+            "wards": ["Gituamba Ward", "Githobokoni Ward", "Chania Ward", "Mang'u Ward"]
+          },
+          {
+            "name": "Limuru",
+            "wards": ["Bibirioni Ward", "Limuru Central Ward", "Ndeiya Ward", "Limuru East Ward", "Ngecha Tigoni Ward"]
+          },
+          {
+            "name": "Kikuyu",
+            "wards": ["Karai Ward", "Nachu Ward", "Sigona Ward", "Kikuyu Ward", "Kinoo Ward"]
+          },
+          {
+            "name": "Thika Town",
+            "wards": ["Township Ward", "Kamenu Ward", "Hospital Ward", "Gatuanyaga Ward"]
+          },
+          {
+            "name": "Gatundu South",
+            "wards": ["Kiamwangi Ward", "Kiganjo Ward", "Ndarugo Ward", "Ngenda Ward"]
+          },
+          {
+            "name": "Kiambu",
+            "wards": ["Ting'ang'a Ward", "Ndumberi Ward", "Riabai Ward", "Township Ward"]
+          },
+          {
+            "name": "Githunguri",
+            "wards": ["Githunguri Ward", "Githiga Ward", "Ikinu Ward", "Ngewa Ward", "Komothai Ward"]
+          },
+          {
+            "name": "Kiambaa",
+            "wards": ["Cianda Ward", "Karuri Ward", "Ndenderu Ward", "Muchatha Ward", "Kihara Ward"]
+          },
+          {
+            "name": "Kabete",
+            "wards": ["Gitaru Ward", "Muguga Ward", "Nyathuna Ward", "Kabete Ward", "Uthiru Ward"]
+          }
+        ]
+      }
+    ]
+  }
+  

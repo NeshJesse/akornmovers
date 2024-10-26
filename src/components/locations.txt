@@ -1,0 +1,33 @@
+Nairobi
+Dagoretti North	Kilimani · Kawangware · Gatina · Kileleshwa · Kabiro
+Dagoretti South	Mutu-ini · Ng'ando · Riruta · Uthiru/Ruthimitu · Waithaka
+Lang'ata	Karen · Nairobi West · Mugumo-ini · South C · Nyayo Highrise · Otiende  ·
+Kibra	Laini Saba · Lindi · Makina · Woodley/ Kenyatta Golf Course · Sarang'ombe
+Kasarani	Clay City · Mwiki · Kasarani · Njiru · Ruai  · Kamulu
+Roysambu	Roysambu · Garden Estate · Ridgeways · Githurai · Kahawa West · Zimmermann · Kahawa
+Ruaraka	Babadogo · Utalii · Mathare North · Lucky Summer · Korogocho
+Embakasi Central	Kayole North · Kayole North Central · Kayole South · Komarock · Matopeni/ Spring Valley
+Embakasi East	Upper Savanna · Lower Savanna · Embakasi · Utawala · Mihang'o
+Embakasi North	Kariobangi North · Dandora Area I · Dandora Area II · Dandora Area III · Dandora Area IV
+Embakasi South	Imara Daima · Kwa Njenga · Kwa Reuben · Pipeline · Kware
+Embakasi West	Umoja I · Umoja II · Mowlem · Kariobangi South
+Kamukunji	Pumwani · Eastleigh North · Eastleigh South · Airbase · California
+Makadara	Maringo/ Hamza · Viwandani · Harambee · Makongeni · Mbotela  · Bahati
+Mathare	Hospital · Mabatini · Huruma · Ngei · Mlango Kubwa · Kiamaiko
+Starehe	Nairobi Central · Ngara · Pangani · Ziwani/ Kariokor · Landimawe · Nairobi South
+Westlands	Kitisuru · Parklands/Highridge · Karura · Kangemi · Mountain View ·
+
+Kiambu
+	Electoral Wards
+Lari	Kinale Ward, Kijabe Ward, Nyanduma Ward, Kamburu Ward, Lari/Kirenga Ward
+Juja	Murera Ward, Theta Ward, Juja Ward, Witeithie Ward, Kalimoni Ward
+Ruiru	Gitothua Ward, Biashara Ward, Gatongora Ward, Kahawa/Sukari Ward, Kahawa Wendani Ward, Kiuu Ward, Mwiki Ward, Mwihoko Ward
+Gatundu North	Gituamba Ward, Githobokoni Ward, Chania Ward, Mang'u Ward
+Limuru	Bibirioni Ward, Limuru Central Ward, Ndeiya Ward, Limuru East Ward, Ngecha Tigoni Ward
+Kikuyu	Karai Ward, Nachu Ward, Sigona Ward, Kikuyu Ward, Kinoo Ward
+Thika Town	Township Ward, Kamenu Ward, Hospital Ward, Gatuanyaga Ward
+Gatundu South	Kiamwangi Ward, Kiganjo Ward, Ndarugo Ward, Ngenda Ward
+Kiambu	Ting'ang'a Ward, Ndumberi Ward, Riabai Ward, Township Ward
+Githunguri	Githunguri Ward, Githiga Ward, Ikinu Ward, Ngewa Ward, Komothai 3 Ward
+Kiambaa		Cianda Ward, Karuri Ward, Ndenderu Ward, Muchatha Ward, Kihara Ward
+Kabete	Gitaru Ward, Muguga Ward, Nyathuna Ward, Kabete Ward, Uthiru Ward

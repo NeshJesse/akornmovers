@@ -23,9 +23,24 @@ const Gallery = () => {
       caption: "Our modern fleet and professional team"
     },
     {
-      url: "/api/placeholder/800/600",
+      url: "/resident.jpeg",
       alt: "Residential moving in progress",
       caption: "Making moving day stress-free"
+    },
+    {
+      url:'/team.jpeg',
+      alt:" Our esteemed team",
+      caption:"Our esteemed team"
+    },
+    {
+      url:'/team2.jpeg',
+      alt:" Our esteemed team",
+      caption:"Our esteemed team"
+    },
+    {
+      url:'/track.jpeg',
+      alt:" Our esteemed team at work",
+      caption:"Our esteemed team at work"
     }
   ];
 
@@ -50,8 +65,10 @@ const Gallery = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <Navbar/>
+  <>
+   <Navbar/>
+    <div className="container mx-auto px-4 py-16">
+     
       <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
         Our Moving Services in Action
       </h2>
@@ -118,6 +135,7 @@ const Gallery = () => {
         </div>
       )}
     </div>
+  </>
   );
 };
 

@@ -69,7 +69,14 @@ const Navbar = () => {
               <div className={navItemUnderline}></div>
             </ScrollLink>
             <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transform hover:scale-105 transition-all duration-200 shadow-md hover:shadow-lg">
+              
+              <ScrollLink
+              to="quoteform"
+              smooth
+              duration={500}
+            >
               Get Quote
+            </ScrollLink>
             </button>
           </div>
 
@@ -107,7 +114,13 @@ const Navbar = () => {
               Testimonials
             </ScrollLink>
             <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-full hover:bg-blue-700 transition-colors duration-200 shadow-md">
+            <ScrollLink
+              to="quoteform"
+              smooth
+              duration={500}
+            >
               Get Quote
+            </ScrollLink>
             </button>
           </div>
         </div>

@@ -29,7 +29,7 @@ const Quote = () => {
   return (
     <>
       {/* Quote form */}
-      <div className="w-full md:w-1/2 bg-white p-6 rounded-lg shadow-lg">
+      <div  id="quoteform" className="w-full md:w-1/2 bg-white p-6 rounded-lg shadow-lg">
         <h3 className="text-2xl font-semibold mb-4">Get a Quote/Uliza Bei</h3>
         <form action="/submit-quote" method="post">
           <div className="mb-4">
@@ -94,6 +94,11 @@ const Quote = () => {
           <button type="submit" className="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 w-full">
             Get Quote
           </button>
+          <button className="px-4 py-2 mb-2">
+            <a aria-label="Chat on WhatsApp" href="https://wa.me/254789374217"> <img alt="Chat on WhatsApp" src="/WhatsAppButtonGreenLarge.svg" />
+            </a>
+          </button>
+          
         </form>
       </div>
     </>

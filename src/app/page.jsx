@@ -105,6 +105,48 @@ export default function Landing() {
         </div>
       
       </section>
+      <section id="moving-process" className="py-16 bg-gray-100">
+  <div className="container mx-auto text-center">
+    <h2 className="text-3xl font-bold mb-8">Our Moving Process</h2>
+    <p className="text-lg mb-12">Experience a smooth and efficient moving process with Akorn Movers in just four simple steps.</p>
+
+    {/* Cards Container */}
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      {/* Step 1 Card */}
+      <div className="bg-white p-6 rounded-lg shadow-lg">
+        <img src="/quote.jpeg" alt="Request a Quote" className="w-full h-48 object-cover rounded-md mb-4" />
+        <h3 className="text-xl font-semibold mb-2">1. Request a Quote</h3>
+        <p className="text-gray-600">Fill out our form to request a quote, and we’ll get back to you with an initial estimate.</p>
+      </div>
+
+      {/* Step 2 Card */}
+      <div className="bg-white p-6 rounded-lg shadow-lg">
+        <img src="/estimate.jpeg" alt="Get an Estimate" className="w-full h-48 object-cover rounded-md mb-4" />
+        <h3 className="text-xl font-semibold mb-2">2. Get an Estimate</h3>
+        <p className="text-gray-600">Receive an estimate based on your needs and any additional services you may require.</p>
+      </div>
+
+      {/* Step 3 Card */}
+      <div className="bg-white p-6 rounded-lg shadow-lg">
+        <img src="/packing.jpeg" alt="Packing" className="w-full h-48 object-cover rounded-md mb-4" />
+        <h3 className="text-xl font-semibold mb-2">3. Packing & Deployment</h3>
+        <p className="text-gray-600">Our team arrives on the scheduled date to help pack your items securely and efficiently.</p>
+      </div>
+
+      {/* Step 4 Card */}
+      <div className="bg-white p-6 rounded-lg shadow-lg">
+        <img src="/movingd.jpeg" alt="Moving" className="w-full h-48 object-cover rounded-md mb-4" />
+        <h3 className="text-xl font-semibold mb-2">4. Moving Day</h3>
+        <p className="text-gray-600">We carefully transport your belongings to your new location, ensuring everything arrives safely.</p>
+      </div>
+    </div>
+
+    {/* CTA Button */}
+    <div className="mt-12">
+      <a href="#quote-form" className="bg-blue-600 text-white py-3 px-6 rounded-lg shadow-lg hover:bg-blue-700 transition duration-300">Get Quote</a>
+    </div>
+  </div>
+</section>
 
 
       <section id="track-record" className="py-16 bg-gray-100">

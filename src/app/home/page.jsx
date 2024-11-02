@@ -70,9 +70,9 @@ export default function Landing() {
             <div className="text-center md:text-left mb-8 md:mb-0 md:w-1/2">
                 <h2 className="text-4xl font-bold mb-4">Welcome to Akorn Movers where you move with Dignity</h2>
                 <p className="text-lg mb-8">Reliable and affordable moving services to make your relocation smooth and stress-free.</p>
-                <p className='text-3xl font-bold'>We offer our services at both local, national and international level.</p>
+                <p className='text-3xl font-bold'>We offer our services across Kenya.</p>
                 <div className='flex py-12 px-16 items-center justify-between'>
-                    <Image src='/globe.jpeg' alt="We operate internationally"
+                    <Image src='/kenya.jpeg' alt="We operate across kenya"
           layout="responsive"
           width={100}
           height={100}
@@ -173,11 +173,6 @@ export default function Landing() {
         <p className="text-gray-600">In Business</p>
       </div>
 
-      {/* Countries Served */}
-      <div className="bg-white p-6 rounded-lg shadow-lg">
-        <h3 className="text-2xl font-semibold mb-2">12</h3>
-        <p className="text-gray-600">Countries Served</p>
-      </div>
     </div>
   </div>
   </section>
@@ -248,7 +243,7 @@ export default function Landing() {
       
     </div>
   </div>
-</section>
+  </section>
 
       
 

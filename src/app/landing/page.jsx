@@ -152,8 +152,6 @@ export default function Landing() {
   </div>
   </section>
 
-  <Pricing/>
-
   <section id="achievements" className="py-16 bg-gray-100">
   <div className="container mx-auto text-center">
     <h2 className="text-3xl font-bold mb-8">Our Achievements</h2>
@@ -181,6 +179,10 @@ export default function Landing() {
     </div>
   </div>
   </section>
+
+
+
+
   <section id="track-record" className="py-16 bg-gray-100">
   <div className="container mx-auto text-center">
     <h2 className="text-3xl font-bold mb-8">Our Track Record</h2>
@@ -248,7 +250,7 @@ export default function Landing() {
       
     </div>
   </div>
-</section>
+  </section>
 
       
 

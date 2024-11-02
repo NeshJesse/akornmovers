@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Quote from '@/components/quote';
 import Image from 'next/image';
 import Pricing from '@/components/pricing';
+import Footer from '@/components/footer';
 
 export const   Metadata ={
   title: 'Akorn Movers- Where you move with dignity',
@@ -282,11 +283,7 @@ export default function Landing() {
 
      
 
-    <footer className="bg-blue-600 text-white py-4">
-        <div className="container mx-auto text-center">
-            <p>&copy; 2024 Akorn Movers. All rights reserved.</p>
-        </div>
-    </footer>
+    <Footer/>
 
 
 

@@ -4,12 +4,13 @@ import { useState } from 'react';
 import Quote from '@/components/quote';
 import Image from 'next/image';
 import Pricing from '@/components/pricing';
+import Footer from '@/components/footer';
 
 export const   Metadata ={
   title: 'Akorn Movers- Where you move with dignity',
 
 }
-export default function Landing() {
+export default function Home() {
 
 
   return (
@@ -157,7 +158,7 @@ export default function Landing() {
   <section id="achievements" className="py-16 bg-gray-100">
   <div className="container mx-auto text-center">
     <h2 className="text-3xl font-bold mb-8">Our Achievements</h2>
-    <p className="text-lg mb-12">Proudly serving clients across the globe.</p>
+    <p className="text-lg mb-12">Proudly serving clients across the Country.</p>
 
     {/* Achievements Container */}
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -277,11 +278,7 @@ export default function Landing() {
 
      
 
-    <footer className="bg-blue-600 text-white py-4">
-        <div className="container mx-auto text-center">
-            <p>&copy; 2024 Akorn Movers. All rights reserved.</p>
-        </div>
-    </footer>
+    <Footer/>
 
 
 

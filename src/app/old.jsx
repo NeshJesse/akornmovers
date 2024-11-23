@@ -3,6 +3,8 @@ import Navbar from '@/components/navbar';
 import { useState } from 'react';
 import Quote from '@/components/quote';
 import Image from 'next/image';
+import Pricing from '@/components/pricing';
+import Footer from '@/components/footer';
 
 export const   Metadata ={
   title: 'Akorn Movers- Where you move with dignity',
@@ -69,19 +71,24 @@ export default function Landing() {
             <div className="text-center md:text-left mb-8 md:mb-0 md:w-1/2">
                 <h2 className="text-4xl font-bold mb-4">Welcome to Akorn Movers where you move with Dignity</h2>
                 <p className="text-lg mb-8">Reliable and affordable moving services to make your relocation smooth and stress-free.</p>
-                <p className='text-3xl font-bold'>Our Services are offered in</p>
-                <ul className='flex py-12 px-16 items-center justify-between'>
-                    <li className='text-2xl'>Kiambu</li>
-                    <li className='text-2xl'>Nairobi</li>
-                </ul>
+                <p className='text-3xl font-bold'>We offer our services at both local, national and international level.</p>
+                <div className='flex py-12 px-16 items-center justify-between'>
+                    <Image src='/globe.jpeg' alt="We operate internationally"
+          layout="responsive"
+          width={100}
+          height={100}
+          className="object-cover rounded-lg"></Image>
+                </div>
             </div>
     
             <Quote/>
         </div>
-      </section>
+    </section>
+  
 
 
-      <section id="services" className="py-16">
+
+  <section id="services" className="py-16">
         <div className="container mx-auto">
             <h2 className="text-3xl font-bold text-center mb-8">Our Services</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -101,10 +108,81 @@ export default function Landing() {
             </div>
         </div>
       
-      </section>
+  </section>
 
+  <section id="moving-process" className="py-16 bg-gray-100">
+  <div className="container mx-auto text-center">
+    <h2 className="text-3xl font-bold mb-8">Our Moving Process</h2>
+    <p className="text-lg mb-12">Experience a smooth and efficient moving process with Akorn Movers in just four simple steps.</p>
 
-      <section id="track-record" className="py-16 bg-gray-100">
+    {/* Cards Container */}
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      {/* Step 1 Card */}
+      <div className="bg-white p-6 rounded-lg shadow-lg">
+        <img src="/quote.jpeg" alt="Request a Quote" className="w-full h-48 object-cover rounded-md mb-4" />
+        <h3 className="text-xl font-semibold mb-2">1. Request a Quote</h3>
+        <p className="text-gray-600">Fill out our form to request a quote, and we’ll get back to you with an initial estimate.</p>
+      </div>
+
+      {/* Step 2 Card */}
+      <div className="bg-white p-6 rounded-lg shadow-lg">
+        <img src="/estimate.jpeg" alt="Get an Estimate" className="w-full h-48 object-cover rounded-md mb-4" />
+        <h3 className="text-xl font-semibold mb-2">2. Get an Estimate</h3>
+        <p className="text-gray-600">Receive an estimate based on your needs and any additional services you may require.</p>
+      </div>
+
+      {/* Step 3 Card */}
+      <div className="bg-white p-6 rounded-lg shadow-lg">
+        <img src="/packing.jpeg" alt="Packing" className="w-full h-48 object-cover rounded-md mb-4" />
+        <h3 className="text-xl font-semibold mb-2">3. Packing & Deployment</h3>
+        <p className="text-gray-600">Our team arrives on the scheduled date to help pack your items securely and efficiently.</p>
+      </div>
+
+      {/* Step 4 Card */}
+      <div className="bg-white p-6 rounded-lg shadow-lg">
+        <img src="/movingd.jpeg" alt="Moving" className="w-full h-48 object-cover rounded-md mb-4" />
+        <h3 className="text-xl font-semibold mb-2">4. Moving Day</h3>
+        <p className="text-gray-600">We carefully transport your belongings to your new location, ensuring everything arrives safely.</p>
+      </div>
+    </div>
+
+    {/* CTA Button */}
+    <div className="mt-12">
+      <a href="#quoteform" className="bg-blue-600 text-white py-3 px-6 rounded-lg shadow-lg hover:bg-blue-700 transition duration-300">Get Quote</a>
+    </div>
+  </div>
+  </section>
+
+  <Pricing/>
+
+  <section id="achievements" className="py-16 bg-gray-100">
+  <div className="container mx-auto text-center">
+    <h2 className="text-3xl font-bold mb-8">Our Achievements</h2>
+    <p className="text-lg mb-12">Proudly serving clients across the globe.</p>
+
+    {/* Achievements Container */}
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {/* Clients Served */}
+      <div className="bg-white p-6 rounded-lg shadow-lg">
+        <h3 className="text-2xl font-semibold mb-2">10,000+</h3>
+        <p className="text-gray-600">Clients Served</p>
+      </div>
+
+      {/* Years of Operation */}
+      <div className="bg-white p-6 rounded-lg shadow-lg">
+        <h3 className="text-2xl font-semibold mb-2">5 Years</h3>
+        <p className="text-gray-600">In Business</p>
+      </div>
+
+      {/* Countries Served */}
+      <div className="bg-white p-6 rounded-lg shadow-lg">
+        <h3 className="text-2xl font-semibold mb-2">12</h3>
+        <p className="text-gray-600">Countries Served</p>
+      </div>
+    </div>
+  </div>
+  </section>
+  <section id="track-record" className="py-16 bg-gray-100">
   <div className="container mx-auto text-center">
     <h2 className="text-3xl font-bold mb-8">Our Track Record</h2>
     <p className="text-lg mb-12">
@@ -205,11 +283,7 @@ export default function Landing() {
 
      
 
-    <footer className="bg-blue-600 text-white py-4">
-        <div className="container mx-auto text-center">
-            <p>&copy; 2024 Akorn Movers. All rights reserved.</p>
-        </div>
-    </footer>
+    <Footer/>
 
 
 
